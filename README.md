@@ -1,5 +1,6 @@
 # Pi - AI-Powered System Command Execution via Python
 
+
 ```text
 ██████╗  ██╗
 ██╔══██╗ ██║
@@ -8,6 +9,7 @@
 ██║      ██║
 ╚═╝      ╚═╝
 ```
+
 Pi is an advanced Command Line Interface (CLI) assistant built in Go. It acts as an autonomous pair-programming agent that helps developers generate, execute, and troubleshoot Python code in real-time. By leveraging the Gemini API, Pi creates a seamless feedback loop that automatically fixes runtime exceptions, manages virtual environments, and installs required packages dynamically.
 
 ---
