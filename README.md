@@ -1,4 +1,4 @@
-# Pi (π) - AI-Powered Python Development Assistant CLI
+# Pi - AI-Powered System Command Execution via Python
 
 <p align="center">
   <img src="docs/logo.png" alt="Pi Logo" width="200" height="200" />
