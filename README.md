@@ -1,6 +1,5 @@
 # Pi - AI-Powered System Command Execution via Python
 
-
 ```text
 ██████╗  ██╗
 ██╔══██╗ ██║
@@ -36,12 +35,21 @@ Pi is an advanced Command Line Interface (CLI) assistant built in Go. It acts as
 
 ---
 
+## Dependency on `tea` Repository
+
+> [!IMPORTANT]
+> **Pi does not feature native API key or model configuration management.** Instead, it is designed to share settings with the [tea](https://github.com/sezzi/tea) (or equivalent parent GUI) repository.
+> 
+> To use Pi, you must first install and configure the **`tea`** application, which saves and encrypts the Gemini API keys and preferred target models inside the local profile path (`%APPDATA%/.tea/.apikeys.json`). Pi will automatically decrypt and load these configurations at runtime.
+
+---
+
 ## Getting Started
 
 ### 1. Requirements
 - **Go:** Version 1.20 or higher installed.
 - **Python:** Version 3.8 or higher installed.
-- **API Key:** A valid Google Gemini API Key.
+- **Dependency Setup:** The [tea](https://github.com/sezzi/tea) repository must be configured on the host system to supply decrypted credentials. Alternatively, a local environment variable fallback (`GEMINI_API_KEY`) is supported.
 
 ### 2. Configuration & Virtual Environment Setup
 Pi enforces execution inside a Python Virtual Environment (`venv`) to isolate dependencies.
